@@ -1,0 +1,36 @@
+.venv/
+node_modules/
+dist/
+__pycache__/
+.pytest_cache/
+test-results/
+playwright-report/
+.env
+.env.*
+!.env.example
+*auth*.json
+*token*.json
+*.log
+.codex/
+.gemini/
+sessions/
+rollouts/
+.runs/
+*.pid
+.browser-deps/
+.network-deps/
+*.tsbuildinfo
+.artifacts/
+
+# Local data is never part of this public source snapshot.
+*.webm
+*events.txt
+recording.json
+media-verification.json
+.env*
+
+# Also ignore local verification dependency symlinks.
+.venv
+node_modules
+.browser-deps
+.network-deps
